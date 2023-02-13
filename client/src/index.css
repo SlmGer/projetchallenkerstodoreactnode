@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: rgb(43, 202, 230);
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  border-radius: 10%;
+  margin-top: 100px;
+}
+
+div.table {
+  background-color: #fff;
+  border-color: rgba(0, 0, 0, 0.74);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 0 80px;
+  padding-bottom: 20px;
+  width: 900px;
+}
+
+table {
+  width: 100%;
+}
+
+table tfoot {
+  font-size: 12px;
+}
+
+table,
+th,
+td {
+  padding: 1rem;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.74);
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+.contenu input[type="text"] {
+  outline: none;
+  width: 95%;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.74);
+}
+
+div.input {
+  outline: none;
+  background-color: #fff;
+  border-radius: 5px;
+  padding-bottom: 5px;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.black a {
+  text-decoration: none;
+  color: rgba(65, 63, 63, 0.824) !important;
+}
+
+.black i {
+  margin: 0 5px;
+}
+
+.status {
+  padding: 4px 0;
+  text-align: center;
+  border-radius: 10px;
+  width: 70%;
+}
+
+.status.afaire {
+  background-color: rgb(43, 202, 230);
+}
+
+.status.encours {
+  background-color: rgb(236, 207, 38);
+}
+
+.status.fait {
+  background-color: rgb(71, 202, 150);
+}
+
+.status.enretard {
+  background-color: rgba(181, 50, 50, 0.936);
+}
